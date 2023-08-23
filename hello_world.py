@@ -1,6 +1,6 @@
-def function():
-    """Función que muestra en consola el texto Hello World."""
-    print("Hello World")
+def function(text):
+    """Función que muestra en consola el texto ingresado."""
+    print(text)
 
 # Se manda a llamar función.
-function()
+function("Esto es un texto cualquiera")
